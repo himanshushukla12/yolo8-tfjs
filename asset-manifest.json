@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/himanshushukla12/yolo8-tfjs.git/static/css/main.9b2e7bbf.css",
+    "main.js": "/himanshushukla12/yolo8-tfjs.git/static/js/main.a4200a0b.js",
+    "index.html": "/himanshushukla12/yolo8-tfjs.git/index.html",
+    "main.9b2e7bbf.css.map": "/himanshushukla12/yolo8-tfjs.git/static/css/main.9b2e7bbf.css.map",
+    "main.a4200a0b.js.map": "/himanshushukla12/yolo8-tfjs.git/static/js/main.a4200a0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b2e7bbf.css",
+    "static/js/main.a4200a0b.js"
+  ]
+}
