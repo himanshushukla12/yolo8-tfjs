@@ -3,14 +3,16 @@
   "description": "Object detection application right in your browser using YOLOv8 and Tensorflow.js",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "start": "react-scripts start",
+    "build": "copy index.html public\\ && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hyuto/yolov8-tfjs.git"
+    "url": "git+https://github.com/himanshushukla12/yolo8-tfjs.git"
   },
   "keywords": [
     "object detection",
@@ -22,9 +24,9 @@
   "author": "Wahyu Setianto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hyuto/yolov8-tfjs/issues"
+    "url": "https://github.com/himanshushukla12/yolo8-tfjs.git"
   },
-  "homepage": "https://github.com/Hyuto/yolov8-tfjs#readme",
+  "homepage": "https://github.com/himanshushukla12/yolo8-tfjs.git#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
@@ -36,6 +38,19 @@
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "vite": "^3.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
